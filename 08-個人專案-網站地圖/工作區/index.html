@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0px;
+            background-size: contain;
+            background-image: url(/08-個人專案-網站地圖/工作區/p14.jpg);
+        }
+        .nav {
+            width: 100%;
+            height: 100px;
+            background-color: saddlebrown;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            z-index: 1;
+        }
+        .logo img {
+            width: 95px;
+        }
+        .links {
+            width: calc(50% - 125px);
+            height: 100%;
+            display: flex;
+        }
+        .link {
+            margin-right: 50px;
+            background-color: lightblue;
+        }
+        .banner {
+            width: 100%;
+        }
+        .banner_img {
+            width: 100%;
+            padding: 150px;
+        }
+        /* 以下是水梨花跟由來的介紹 */
+
+        .origin_img {
+            width: 50%;
+
+            display: flex;
+            justify-content: center;
+        }
+
+        .origin_img img {
+            width: 60%;
+            border-radius: 50%;
+        }
+        .origin {
+            width: 100%;
+            display: flex;
+        }
+        .origin_text {
+            width: 50%;
+            /* 因為要讓 origin_text 裡面的文字排列，所以我加了flex*/
+            display: flex;
+            /* 我們用了置中的指令 */
+            align-items: center;
+
+            font-size: 24px;
+            /* origin_text 裡面的內聚(上跟下) 為了不要讓裡面的文字黏著邊框 */
+            padding: 100px 0px;
+        }
+         /*這是果農夫妻圖案 */
+        .imgmessge-img {
+           
+        }
+
+        /* 以下是水梨的種植介紹.共三張圖片 */
+        .cultivate {
+            width: 35%;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            margin: 200px 32%;
+        }
+        .cultivate1_img {
+            width: 100%;
+        }
+        .cultivate2_img {
+            width: 100%;
+        }
+        .cultivate3_img {
+            width: 100%;
+        }
+        /* 以下是水梨的品種.介紹主要三種 */
+        .pears {
+            width: 50%;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .pear1 {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin-top: 100px;
+        }
+        .pear2 {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin-top: 200px;
+        }
+
+        .pear3 {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin-top: 100px;
+            margin-bottom: 200px;
+        }
+
+        /* 手繪三星地圖 */
+        .map {
+            width: 100%;
+            height: 500px;
+            background-size: cover;
+            margin: auto;
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 500px;
+
+        }
+        .ww {
+            display: flex;
+            align-items: center;
+        }
+        .gg {
+            font-size: 20px;
+            color: lightsalmon;
+            display: flex;
+            justify-content: center;
+            padding: 50px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <div class="logo">
+            <img src="LOGO.jpg" style="border-radius: 50%;">
+        </div>
+        <div class="links">
+            <a href="#flag1" class="gg">有機果園</a>
+        </div>
+        <div class="links">
+            <a href="#flag2" class="gg">梨樹種植</a>
+        </div>
+
+        <div class="links">
+            <a href="#flag3" class="gg">上將梨品種</a>
+        </div>
+
+        <div class="links">
+            <a href="#flag4" class="gg">果園位置</a>
+        </div>
+    </div>
+
+    <div class="banner">
+        <img src="p1.jpg" class="banner_img">
+    </div>
+
+    <div class="origin">
+        <div class="origin_img">
+            <div id="flag1"></div>
+            <img src="p2.jpg" alt="">
+        </div>
+
+        <div class="origin_text">
+            產地位於蘭陽溪上游，由於地理環境良好，
+            空氣清新、水質清澈，生產環境無污染，再配合蘭陽平原濕潤的氣候
+            ，孕育了品質極佳，汁多、心細、肉甜的果肉極品
+            『三星上將梨』三星四寶之一，因地名與軍階中的『三星上將』
+            相同而得名
+
+            早晚分別吹著反向東、西風，日夜溫差大，加上豐沛雨水滋潤，
+            上將梨顆顆長得金黃飽滿，
+            「三星的雨水多，過年前開花就要趕快幫它撐傘。」
+            楊木生說，有雨水授粉才完整，撐起小傘，保護花粉不被雨水打落。
+            滿坑谷的傘海景象難見，
+            唯獨三星才有。
+
+            由於地理環境良好，空氣清新、水質清澈，生產環境無污染，
+            孕育了品質極佳，汁多、心細、肉甜
+            大人小孩都可以一起享用
+
+            營養價值
+            上將梨含水量高達89.3%，甜度11度以上。
+            含有醣類、蛋白質、脂肪、鈣、磷、鐵及維他命A和C等，
+            具有促進胃酸分秘、幫助消化和增進食欲的作用。
+        </div>
+    </div>
+
+    <div class="messge-nav">
+        <div class="message-img">
+            <img src="p13.jpg" alt="" style=" width: 150px; height: 130px;">
+                <div style=" background-color: blanchedalmond; width: 100%; height: 30px;"></div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="cultivate">
+        <div id="flag2"></div>
+        <div class="cultivate1_img">
+            <img src="樹1.jpg" alt="">
+            <div class="cultivate1_text">
+                產地位於蘭陽溪上游，由於地理環境良好，空氣清新、水質清澈，
+                生產環境無污染，再配合蘭陽平原濕潤的氣候，孕育了品質極佳，
+                汁多、心細、肉甜的果肉極品
+                『三星上將梨』三星四寶之一，因地名與軍階中的『三星上將』
+                相同而得名
+            </div>
+        </div>
+
+        <div class="cultivate2_img">
+            <img src="樹2.jpg" alt="">
+            <div class="cultivate2_text">
+                早晚分別吹著反向東、西風，日夜溫差大，加上豐沛雨水滋潤，
+                上將梨顆顆長得金黃飽滿，
+                「三星的雨水多，過年前開花就要趕快幫它撐傘。」
+                楊木生說，有雨水授粉才完整，撐起小傘，保護花粉不被雨水打落。
+                滿坑谷的傘海景象難見，
+                唯獨三星才有。
+            </div>
+        </div>
+        <div class="cultivate3_img">
+            <img src="樹3.jpg" alt="">
+            <div class="cultivate3_text">
+                草生栽培提高果實品質。
+                大顆捧在手裡，成熟果皮越顯潔淨金黃，套袋過程少說二到四層。
+                梨子不是說好甜！那麼簡單而已，甜度、密度、色澤、外型都要兼顧，
+                連皮都可以吃!皮薄富含纖維又營養-有陽光味的當季上將梨
+            </div>
+        </div>
+    </div>
+
+
+    <div class="pears">
+        <div id="flag3"> </div>
+        <div class="pear1">
+            <img src="上將豐水梨.jpg" alt="" style="border-radius: 50%; width: 350px; height: 350px;">
+            <div class="pear1_text">
+                三星上將豐水梨：
+                產季6月下旬-9月上旬，口感細緻、甜度高、果膚呈現漂亮的亮黃色、
+                水份最多，削皮過程中梨汁會即刻溢出，可稱作是會”爆汁”的最高級梨子，
+                每年嫁接日本進口高等級花苞，有非常多忠實愛好的顧客。
+                建議尚未品嚐過美味的三星上將梨的客人，可以先購買三星上將豐水梨，
+                豐水梨果核小，是果汁水份豐富的高級梨，經常一試就成主顧。
+                每年約國曆6/25開始採收!果粒屬中、大型，肉質細緻，水份豐富，
+                甜度約12度，是炎夏消暑盛品
+            </div>
+        </div>
+
+        <div class="pear2">
+            <img src="上將幸水梨.jpg" alt="" style="border-radius: 50%; width: 350px; height: 350px;">
+            <div class="pear2_text">
+                三星上將幸水梨：
+                產季6月中旬-7月中旬，特殊品種，甜度高、水份多、果肉細緻、有獨特果香、
+                口感清脆.難忘其中滋味，已品嚐三星上將豐水梨和三星上將黃金梨的饕客，
+                相信已經愛上同為三星蔥故鄉出產的三星上將梨。可以於6月中網站詢問，
+                此品種稀少，只開放少量預購，預購無法保證出貨，經常造成客人無法買到的情況
+                ，端看各位與三星上將幸水梨的緣分。此品項數量有限，無法上架銷售，敬請見諒。
+                每年約國曆6/15開始採收!肉質細緻多汁，甜度約11度，有特殊的梨香風味，
+                屬中形果；為首批上將梨能適時嚐鮮。
+            </div>
+        </div>
+
+        <div class=" pear3">
+            <img src="上將黃金梨.jpg" alt="" style="border-radius: 50%; width: 350px; height: 350px;">
+            <div class="pear3_text">
+                三星上將黃金梨：
+                產季7月上旬至8月底，屬於晚梨，脆度高、甜度高、水份很多、
+                果肉呈現漂亮純潔白，外皮為綠底有花紋，最大特色為果膚上的天然”花紋”，
+                產期極短，黃金梨品種獨特，果樹照顧不易，產量不多。
+                品嚐過三星上將豐水梨的尊貴顧客，相信難忘細緻的口感，
+                可進階加購三星上將黃金梨，品嚐黃金梨的獨特美味。
+                每年約國曆7/15開始採收!果粒屬較大型，肉質細嫩、水分豐富、
+                脆度佳，甜度可達13度左右，是本園推薦品系，果皮會有鏽斑乃正常特色。
+            </div>
+        </div>
+    </div>
+
+    <div class=" map">
+        <div id="flag4"></div>
+        <img src="p10.jpg" width="100%" height="150%">
+        <div class="ww"> 果園位置:宜蘭縣三星鄉**繳交作業測試版**</div>
+    </div>
+
+</body>
+</html>
